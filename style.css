@@ -1,0 +1,20 @@
+* {
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    width: auto;
+    min-height: 100vh;
+    display: flex;
+    border: 1px solid black;
+}
+#side-menu {
+    width: 30%;
+    background: blue;
+}
+#main {
+    width: 70%;
+    background: grey;
+}
