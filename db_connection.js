@@ -8,3 +8,4 @@ const db = mysql.createConnection({
     database: "quiz_app"
 });
 
+module.exports = { db }
